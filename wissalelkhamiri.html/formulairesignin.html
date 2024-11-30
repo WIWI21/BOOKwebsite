@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksters ^-^</title>
+    <!-- Link to CSS -->
+    <link href="formulairesignin.css" rel="stylesheet">
+    <!-- Website logo -->
+    <link rel="icon" href="logo book - Raccourci.lnk">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to our Book Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="PAGE2.html">Livres</a></li>
+                    <li><a href="formulairesignin.html">Sign in</a></li>
+                    <li><a href="formulairesignup.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <form class="form" id="signin-form">
+        <fieldset>
+            <p class="form-title">Sign in to your account</p>
+            <div class="input-container">
+                <input type="email" id="email" placeholder="Enter email" required>
+                <span></span>
+            </div>
+            <div class="input-container">
+                <input type="password" id="password" placeholder="Enter password" required>
+            </div>
+            <div id="error-message" style="color: red; display: none;">Incorrect password. Please try again or sign up.</div>
+            <button type="submit" class="submit">Sign in</button>
+            <p class="signup-link">
+                No account?
+                <a href="formulairesignup.html">Sign up</a>
+            </p>
+        </fieldset>
+    </form>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BookWebsite. All rights reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="PAGE2.html">Livres</a></li>
+                    <li><a href="formulairesignin.html">Sign in</a></li>
+                    <li><a href="formulairesignup.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="signin.js"></script>
+</body>
+</html>

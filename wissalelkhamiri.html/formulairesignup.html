@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksters ^-^</title>
+    <!-- Link to CSS -->
+    <link href="formulairesignupcss.css" rel="stylesheet">
+    <!-- Website logo -->
+    <link rel="icon" href="logo book - Raccourci.lnk">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to our Book Website</h1>
+            <nav>
+                <ul>
+                    
+                    <li><a href="PAGE2.html">Livres</a></li>
+                    <li><a href="formulairesignin.html">sign in</a></li>
+                    <li><a href="formulairesignup.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="text-container">
+        <p>Signing up is quick, easy, and completely free.</p>
+        <br>
+        <p>Fill out the registration form with your details, and voila!</p>
+        <p>Join us on a journey where stories come to life, and the magic of reading knows no bounds.</p>
+    </div>
+    <main>
+    <form method="get"action="">
+        <fieldset>
+            <legend>enter your informations to continue </legend>
+            <label for="prenom">votre prenom</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Ex.:wissal" size="20" maxlength="15" required>
+            <br>
+            <label for="nom">votre nom</label>
+            <input type="text" name="nom" id="nom" placeholder="Ex.:labrighi" size="30" maxlength="30" required>
+            <br>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="Ex.wissal.labrighi@gmail.com" maxlength="60" required>
+            <br>
+            <label for="tel">email</label>
+            <input type="tel" name="tel" id="tel" placeholder="Ex.+212600000000" maxlength="13" required>
+            <br>
+            <label for="password">password</label>
+            <input type="password"  name="password" maxlength="15" size="20">
+
+
+
+        </fieldset>
+        <fieldset>
+            <legend>continue entering other choices not required</legend>
+            <p> please indicate the age range you belong to.</p>
+            <br>
+            <input type="radio" name="age" value="moins de 12 ANS" id="moins de 12 ANS">
+            <label for="moins de 12 ANS">MOINS DE 12 ANS</label>
+            <br>
+            <input type="radio" name="age" value="entre 12 et 16 ANS" id="entre 12 et 16 ANS">
+            <label for="entre 12 et 16 ANS">ENTRE 12 et 16 ANS</label>
+            <br>
+            <input type="radio" name="age" value="entre 16 et 18 ANS" id="entre 16 et 18 ANS">
+            <label for="entre 16 et 18 ANS">ENTRE 16 et 18 ANS</label>
+            <br> 
+            <input type="radio" name="age" value="entre 18 et 25 ANS" id="entre 18 et 25 ANS">
+            <label for="entre 18 et 25 ANS">ENTRE 18 et 25 ANS</label>
+            <br>
+            <input type="radio" name="age" value="PLUS de 25 ANS" id="PLUS de 25 ANS">
+            <label for="PLUS de 25 ANS">PLUS de 25 ANS</label>
+            <br>
+            <p> please indicate your country</p>
+            <label for="pays">pays</label>
+            <select name="pays" id="pays">
+                <option value="MAROC" selected>MAROC</option>
+                <option value="FRANCCE">FRANCCE</option>
+                <option value="BELGIUM">BELGIUM</option>
+                <option value="ITALY">ITALY</option>
+                <option value="JAPAN">JAPAN</option>
+                <option value="SWITZERLAND">SWITZERLAND</option>
+                <option value="GERMANY">GERMANY</option>
+
+            </select>
+
+
+        </fieldset>
+
+        <input type="submit">
+        <input type="reset" >
+
+    </form>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BookWebsite. All rights reserved.</p>
+            <nav>
+                <ul>
+                    
+                    <li><a href="PAGE2.html">Livres</a></li>
+                    <li><a href="formulairesignin.html">sign in</a></li>
+                    <li><a href="formulairesignup.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
